@@ -3,7 +3,7 @@
 	Pixxi_Serial_4DLib.h
 */
  
-#ifndef Pixxi_Serial_4DLib_h
+
 #define Pixxi_Serial_4DLib_h
  
 #if (ARDUINO >= 100)
