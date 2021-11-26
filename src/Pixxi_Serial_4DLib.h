@@ -16,7 +16,7 @@
 #include <string.h>
 
 typedef void (*Tcallback4D)(int, unsigned char); 
-int Pixxi_Serial_4DLib::TimeLimit4D=0;
+
 class Pixxi_Serial_4DLib
 {
 	public:
@@ -265,5 +265,6 @@ class Pixxi_Serial_4DLib
 		void printNumber(unsigned long, uint8_t);
 		void printFloat(double number, uint8_t digits);
 };
+int Pixxi_Serial_4DLib::TimeLimit4D=0;
  
 #endif
